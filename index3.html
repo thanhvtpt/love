@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="heart.png">
+    <title>Gửi em!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap');
+    body{
+        background-image: url("bgr1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .icon {
+    font-size: 40px;
+    color: red;
+    opacity: 0;
+    margin-top: 5%;
+    transition: 1s;
+    cursor: pointer;
+    animation: mail 1s forwards 3s infinite;
+    text-align: center;
+}
+a.textn_icon {
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    text-decoration: unset;
+    width: 100%;
+    padding-bottom: 20px;
+    display: block;
+    font-family: 'Dancing Script', cursive;
+}
+@keyframes mail{
+            0%{
+                opacity: 1;
+                transform: rotate(0deg);
+            }
+            20%,60%{
+                opacity: 1;
+                transform: rotate(5deg);
+            }
+            40%,80%{
+                opacity: 1;
+                transform: rotate(-5deg);
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+    .wrapper{
+        background-color: rgb(253, 215, 215);
+        width: 600px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: -5px -5px 10px rgba(255,255,255, 0.8),
+                    10px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    .text{
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 25px;
+        font-family: 'Ms Madi', cursive;
+        font-weight: bold;
+    }
+    .fa-solid{
+        color: red;
+        margin: 0px 5px;
+    }
+    .text-crush{
+        padding: 0px 15px 10px 15px;
+        font-size: 15px;
+        font-family: 'Dancing Script', cursive;
+    }
+    @media screen and (max-width: 768px) {
+        body{
+            background-size: cover;
+            object-fit: cover;
+        }
+        .wrapper{
+            width: 300px;
+            height: 100%;
+        }
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="items"></div>
+        <div class="content">
+            <div class="text"><i class="fa-solid fa-heart"></i>Gửi bé !!<i class="fa-solid fa-heart"></i></div>
+            <div class="text-crush">Nè bé, chắc bé đã xem xong lời nhắn lúc nãy mong là bé thấy thú vị, anh đã dành khá nhiều tâm huyết vào đấy =))).
+                Chắc bé đã biết chúng mình đã nhắn với nhau 16250 tin nhắn và 888 giờ nhắn tin cho nhau.<br> 
+                Mình quen biết nhau cũng đã 1 thời gian vui có, buồn có, có rất nhiều kỷ niệm bên nhau như bò lạc, đo đường... hehe <br>
+                Chúc em 20/10 thật hạnh phúc, luôn xinh đẹp và cười thật nhiều và luôn có Anh.<br>
+                (Tuy mình đã ngầm hiểu nhau rồi… nhưng anh vẫn muốn nói rõ một lần: Làm người yêu anh nha, bé. 💗)
+            </div>
+                <div class="icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <a class="textn_icon" href="https://www.facebook.com/messages/e2ee/t/1537943013869057">Click!! Gủi cảm nghĩ cho thành bé ngay</a>
+        </div>
+    </div>
+</body>
+</html>
